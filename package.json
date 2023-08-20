@@ -1,0 +1,16 @@
+{
+  "name": "typegen-contentful",
+  "type": "module",
+  "scripts": {
+    "typegen": "bash ./src/typegen.sh"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cf-content-types-generator": "^2.12.2"
+  }
+}
